@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Plagiarism Checker",
   "version": "1.0",
   "description": "Check highlighted text for plagiarism",
