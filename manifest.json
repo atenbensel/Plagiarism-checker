@@ -2,14 +2,13 @@
   "manifest_version": 3,
   "name": "Plagiarism Checker",
   "version": "1.0",
-  "description": "Check highlighted text for plagiarism",
+  "description": "Check the highlighted text for plagiarism",
   "permissions": [
     "activeTab",
     "contextMenus"
   ],
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "scripts": {"service_worker": "background.js"},
   },
   "content_scripts": [
     {
@@ -22,7 +21,7 @@
     "48": "icon.png",
     "128": "icon.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "icon.png",
       "48": "icon.png",
