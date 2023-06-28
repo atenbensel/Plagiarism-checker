@@ -37,7 +37,7 @@ chrome.contextMenus.create({
       const termFrequency = {};
       for (const word of sourceWords) {
         termFrequency[word] = termFrequency[word] ? termFrequency[word] + 1 : 1;
-      }
+      }  
   
       // Calculate inverse document frequency
       const inverseDocumentFrequency = {};
